@@ -1,0 +1,28 @@
+{
+  "name": "docs.party",
+  "version": "1.0.0",
+  "description": "Let's improve our documentation!",
+  "main": "index.js",
+  "dependencies": {
+    "csskit-base": "^1.0.0"
+  },
+  "devDependencies": {
+    "csskit-cli": "^1.0.3"
+  },
+  "scripts": {
+    "bundle-css": "csskit bundle deps.css > bundle.css",
+    "bundle": "npm run bundle-css && jekyll build",
+    "deploy": "npm run bundle && staticland _site docs.party",
+    "start": "jekyll serve -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/docs.party.git"
+  },
+  "author": "sethvincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethvincent/docs.party/issues"
+  },
+  "homepage": "https://github.com/sethvincent/docs.party#readme"
+}

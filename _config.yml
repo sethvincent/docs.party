@@ -1,0 +1,12 @@
+title: "Docs Party 📖🎉"
+description: "Let's improve our documentation!"
+permalink: /posts/:title
+baseurl: ''
+exclude: [node_modules, tmp, bin, README.md]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
