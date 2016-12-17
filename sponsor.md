@@ -6,7 +6,7 @@ layout: page
 
 <p>Support the production of quality documentation and help to build a documentation-focused community by sponsoring Docs Party! We need help covering space, food, and other costs of running the event.</p>
 
-<p><b>As a sponsor, you'll get:</p></p>
+<p><b>As a sponsor, you'll get:</b></p>
 <ul>
   <li>Logo, name, description, & link of your choice added to sponsors list</li>
   <li>Name & logo included in promotion of the event</li>
